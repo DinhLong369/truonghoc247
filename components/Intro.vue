@@ -1,5 +1,5 @@
 <template>
-    <div class="flex justify-center items-center text-center ">
+    <div class="flex flex-col justify-center items-center md:flex-row">
         <div class="max-w-[483px] text-left">
             <h3 class="font-['Tinos'] font-semibold text-[#008037] text-[46px] py-4 max-w-[435px]">Nâng tầm trung
                 tâm của bạn với

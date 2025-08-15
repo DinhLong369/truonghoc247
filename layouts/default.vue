@@ -1,20 +1,22 @@
 <template>
     <div class="max-w-screen-xl mx-auto">
-        <header class="sticky top-0 bg-white z-50">
-            <div class="flex justify-between items-center w-[420px] md:w-[1200px]">
-                <div
-                    class="bg-[url('https://media.salekit.com/uploads/salekit_9ace970b3e97aee72b623414c1fbd841/112345678.png?v=1')] bg-cover bg-center w-32 h-16 md:w-[200px] md:h-[90px] flex-shrink-0">
+        <header class="sticky top-0 bg-white z-50 flex justify-center ">
+            <div class="flex justify-between items-center w-md md:w-[1280px] md:px-0 flex-shrink-0">
+                <div class="flex justify-between items-center flex-shrink-0">
+                    <div
+                        class="bg-[url('https://media.salekit.com/uploads/salekit_9ace970b3e97aee72b623414c1fbd841/112345678.png?v=1')] bg-cover bg-center w-32 h-16 md:w-[200px] md:h-[90px] flex-shrink-0">
+                    </div>
+                    <nav class="ml-20 hidden md:block">
+                        <ul class="flex justify-between items-center gap-10">
+                            <li class="font-semibold cursor-pointer text-gray-500 flex-shrink-0">Giới thiệu</li>
+                            <li class="font-semibold cursor-pointer text-gray-500 flex-shrink-0">Tính năng</li>
+                            <li class="font-semibold cursor-pointer text-gray-500 flex-shrink-0">Sản phẩm</li>
+                            <li class="font-semibold cursor-pointer text-gray-500 flex-shrink-0">FAQ</li>
+                        </ul>
+                    </nav>
                 </div>
-                <nav class="hidden md:block">
-                    <ul class="flex justify-around gap-10">
-                        <li class="font-semibold cursor-pointer text-gray-800">Giới thiệu</li>
-                        <li class="font-semibold cursor-pointer text-gray-800">Tính năng</li>
-                        <li class="font-semibold cursor-pointer text-gray-800">Sản phẩm</li>
-                        <li class="font-semibold cursor-pointer text-gray-800">FAQ</li>
-                    </ul>
-                </nav>
                 <button
-                    class="bg-green-700 uppercase text-white font-bold cursor-pointer rounded-lg px-5 py-2 text-sm md:px-10 md:py-4 ">Dùng
+                    class="bg-green-700 uppercase text-white font-bold cursor-pointer rounded-lg px-5 py-2 text-[11px] md:text-[17px] md:px-10 md:py-4 flex-shrink-0 ">Dùng
                     thử miễn phí</button>
             </div>
         </header>
