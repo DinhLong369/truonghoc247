@@ -4,6 +4,6 @@
     <featture />
     <description />
     <service/>
-    <DropDown/>
+    <!-- <DropDown/> -->
 
 </template>

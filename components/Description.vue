@@ -1,9 +1,9 @@
 <template>
-    <div class="flex flex-col justify-center items-center ">
-        <h3 class="text-[36px] text-[Tinos] font-bold text-[#008037]">Phần mềm quản lý dành riêng cho các trung tâm
+    <div class="flex flex-col justify-center items-center max-w-[1280px] mx-auto">
+        <h3 class="text-[30px] lg:text-[36px] text-[Tinos] font-bold text-[#008037] mb-10 text-center">Phần mềm quản lý dành riêng cho các trung tâm
             đào tạo</h3>
-        <div class="grid grid-cols-2 gap-x-30 gap-y-20">
-            <div class="flex flex-col justify-center items-start">
+        <div class="grid grid-col-1 lg:grid-cols-2 gap-x-30 gap-y-20 mx-10 lg:mx-0">
+            <div class="flex flex-col justify-center items-start ">
                 <button
                     class="bg-[#018e5a] px-10 py-2 rounded-xl font-semibold text-white text-[23px] text-[Tinos] mb-10">Giảng
                     dạy</button>
@@ -32,7 +32,7 @@
                 <button
                     class="bg-[#018e5a] px-10 py-2 rounded-xl font-semibold text-white text-[23px] text-[Tinos] mb-10">Tài
                     chính</button>
-                <div class=" text-[18px] text-[#545454]">
+                <div class="text-[18px] text-[#545454]">
                     <p class="flex"> <img
                             src="https://media.salekit.com/uploads/salekit_9ace970b3e97aee72b623414c1fbd841/thiet-ke-chua-co-ten-251.png"
                             alt="" class="w-7 h-7">Tự động theo dõi học phí</p>

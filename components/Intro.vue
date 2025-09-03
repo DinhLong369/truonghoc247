@@ -1,13 +1,13 @@
 <template>
-    <div class="flex flex-col justify-center items-center md:flex-row">
+    <div class="flex flex-col justify-center items-center text-center lg:flex-row">
         <div class="max-w-[483px] text-left">
-            <h3 class="font-['Tinos'] font-semibold text-[#008037] text-[46px] py-4 max-w-[435px]">Nâng tầm trung
+            <h3 class="font-['Tinos'] font-semibold text-[#008037] text-[38px] lg:text-[46px] py-4 w-[435px]">Nâng tầm trung
                 tâm của bạn với
                 giải pháp quản lý toàn diện</h3>
-            <p class="font-light py-4 text-gray-500 max-w[42px]">
+            <p class="font-light py-4 text-gray-500 ">
                 Truonghoc247 là Giải pháp quản lý toàn diện giúp Nhà Trường, Trung Tâm vận hành tối ưu, bứt phá tăng
                 trưởng vượt bậc chỉ sau vài tháng</p>
-            <div class="font-light text-gray-500 py-2 max-w[42px]">Tối ưu ngay <span class="font-bold">Quy Trình
+            <div class="font-light text-gray-500 py-2 ">Tối ưu ngay <span class="font-bold">Quy Trình
                     Hoạt Động</span> của
                 <span class="font-bold">Trường Học, Trung Tâm</span> của bạn chỉ với một click
             </div>
